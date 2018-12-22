@@ -1,0 +1,12 @@
+
+<div class="jumbtron">
+  <h1 class="display-4 text-center">User List</h1>
+  <hr>
+  <div class="row">
+    <div class="col-md-12">
+      <ng2-smart-table [settings]="settings" [source]="userList" (editConfirm)="onSaveConfirm($event)"
+      (createConfirm)="onCreateConfirm($event)"></ng2-smart-table>
+    </div>
+  </div>
+</div>
+
