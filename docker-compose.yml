@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  dfo.assignment.api:
+    image: dfoassignmentapi
+    build:
+      context: .
+      dockerfile: DFO.Assignment.API/Dockerfile
+    ports:
+      - "32773:80"
+    
