@@ -5,15 +5,15 @@ This application is seperated into 2 projects:
 - (2) Frontend: built by Angular7;
 Both are running on Docker.
 
-1. Prerequisite:
+## 1. Prerequisite:
  - Docker (Linux containers)
 
-2. How to start api (backend)
+## 2. How to start api (backend)
 - Open command line at root folder where located source code
 - Run command: docker-compose up
 - Check the api at http:localhost:32773
 
-3. How to start frontend
+## 3. How to start frontend
 - From root folder: cd Frontend
 - Run command: docker build -t dfo.assignment.frontend .    // Have a dot (.) at the end
 - Start app: docker run -p 4200:4200 dfo.assignment.frontend
